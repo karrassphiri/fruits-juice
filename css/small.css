@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
+
+footer,
+header, nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: .5px solid whitesmoke;
+  background-color: green;
+  padding: 5px 0;
+  margin: 0;
+  color: white;
+  padding: .5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  margin-left: .5rem;
+}
+.logo img {
+  width: 60px;
+  height: auto;
+  margin-left: -15px;
+  border-radius: 50%;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+.social {
+  display: flex;
+  align-items: flex-start;
+  
+}
+.social img{
+  width:25px;
+  height:auto;
+  border-radius: 50%;
+}
+.navBtn {
+  border: .5px solid white;
+  font-size: 2rem;
+  background-color: green;
+  color: white;
+}
+nav {
+  display: flex;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+}
+
+nav ul li a {
+  display: block;
+  padding: .5rem;
+  text-decoration: none;
+  text-align: left;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+nav ul.open {
+  display: block;
+}
+#hamBtn span:nth-child(1) {
+  display: block;
+}
+
+#hamBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamBtn.open span:nth-child(1) {
+  display: none;
+}
+
+#hamBtn.open span:nth-child(2) {
+  display: block;
+}
+nav ul li a {
+  color: yellow;
+}
+
+nav ul li a:hover {
+  background-color: greenyellow;
+  color: blue;
+}
+
+body {
+  background-color: rgb(250, 249, 249);
+  color: #333;
+}
+
+main picture.bannerimg img{
+  width: 100%;
+}
+.banner {
+  position: relative;
+  margin: 1rem;
+  margin: .5vw 0vw;
+  
+}
+main .action p{
+  border: 1px solid #999;
+  background-color: yellow;
+  color: black;
+  width: 100%;
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+}
+
+.action {
+  position: absolute;
+  bottom: -5px;
+  left: 5px;
+}
+.areasummary, .generalweather, .forecast, .forecast1, .forecast2, .forecast3, .juicepic, .fruitpic, .fruitpic2 {
+  border: 1px solid #999;
+  padding: 5px;
+  margin: 1rem;
+}
+
+
+.areasummary p{
+  padding: .5rem;
+  margin-top: -10px;
+  font-family: 'Lato', sans-serif;
+
+}
+.areasummary h3{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+ }
+
+.juicepic, .fruitpic, .fruitpic2 {
+  border: 1px solid #999;
+  display: none;
+}
+
+.welcome h1, .juicepic h2, .fruitpic h2, .fruitpic2 h2, .generalweather h2, .areasummary h2, .forecast h2{
+  text-align: center;
+  background-color: yellow;
+  color: red;
+  border: 1px solid red;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.generalweather p, .forecast1 {
+  padding: 1rem;
+  margin: .5rem;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Lato', sans-serif;
+
+}
+.generalweather p{
+  text-align: left;
+  font-family: 'Lato', sans-serif;
+
+}
+.forecast h2, .generalweather h2, .areasummary h2, .juicepic h2, .fruitpic h2, .fruitpic2 h2{
+  padding: .5rem;
+  height:fit-content;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.juicepic img, .fruitpic img, .fruitpic2 img, .juice img, .fruit img, .fruit2 img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+
+
+/********** CSS for Fresh page **********/
+main.form {
+  position: relative;
+  background-color: #eee;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2%;
+  min-height: 20rem;
+  max-width: 100%;
+}
+main h2 {
+  text-align: center;
+  background-color: yellow;
+  color: red;
+  border: 1px solid red;
+  font-family: 'Montserrat', sans-serif;
+
+}
+form fieldset {
+  margin: .5rem 0;
+  border: 2px solid orange;
+  border-radius: 10px;
+  padding: .5rem 2%; 
+}
+form legend {
+  color: #331;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+  font-size: 1rem;
+}
+form label.top {
+  display: block;
+  padding-top: 1.2rem;
+  color: black;
+  font-size: 1rem;
+}
+form label.top input
+ {
+  display: block;
+  font-size: 1rem;
+  border: solid 1px #993;
+  border-radius: 5px;
+  padding: .70rem;
+  color: #666;
+  width: 90%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+form div.input-group {
+  display: flex;
+  padding: .5rem;
+  margin: .5rem 0;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: greenyellow;
+  color: #222;
+  border-radius: .5rem;
+  padding: .5rem .5rem;
+  margin: 0 0 2rem 2%;
+  width: 95%;
+  max-width: 20rem;
+  margin-top: 20px;
+}
+.instructionBox {
+  display: block;
+  font-size: 15px;
+  border: 1px solid #333;
+  border-radius: 20px;
+  padding: 1rem;
+  width: 80%;
+  height: 100px;
+  margin-top: 10px;
+  margin-left: 8px;
+}
+
+.formresults {
+  border: 2px solid #2212;
+  border-radius: 10px;
+  padding: 1rem;
+  background-color: green;
+  color: #ff0;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.formresults p, div#summary {
+  color: white;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+
+}
+
+
+/********** CSS for About Us page **********/
+.resource {
+  display: flex;
+  flex-direction: column;
+ 
+}
+.resource a{
+  color: white;
+  text-decoration: none;
+  margin-top: .5rem;
+}
+.history p, .history2 p {
+  padding: 1rem;
+  font-family: 'Lato', sans-serif;
+
+}
+.contactinfo h3{
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bannerUs {
+  margin: .5vw 0vw;
+}
+.juice, .fruit, .fruit2 {
+  display: none;
+}
+.contactmap{
+  height: 80%;
+}
+iframe {
+  width: 100%;
+  height: auto;
+}
+
+ 
