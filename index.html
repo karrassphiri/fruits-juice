@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bountiful Foods</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/medium.css">
+  <link rel="stylesheet" href="css/large.css">
+  <meta name="description" content="This is a Home page of Bountiful Foods project, MT ">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.jpg" alt="bountifullogo">
+    </div>
+    <div class="heading">
+      <h1>Bountiful Foods</h1>
+    </div>
+    <button id="hamBtn" class="navBtn"><span>&#9776;</span><span>x</span></button>
+  </header>
+  <nav>
+    <ul id="primaryNav">
+      <li><a href="fresh.html">Fresh</a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+    </ul>
+  </nav>
+  <div class="welcome">
+    <h1>Welcome to Bountiful Foods</h1>
+  </div>
+  <main>
+    <div class="banner">
+      <picture class="bannerimg">
+        <source srcset="images/large.jpg" media="(min-width:960px)">
+        <source srcset="images/medium.jpg" media="(min-width:564px) and (max-width:958px)">
+        <img src="images/small.jpg" alt="Welcome image" loading="lazy">
+      </picture>
+      <div class="action">
+        <p><a href="fresh.html">Make fruit drink</a></p>
+      </div>
+      
+    </div>
+    <div class="areasummary">
+      <h2>Costal areas</h2>
+      <h3>Visit La Jolla, San Diego</h3>
+      <p>
+        With just a short drive from San Diego, you can get to La Jolla's village, a San Diego beach
+        town where you can find wonderful restaurants, an aquarium for a fun-filled family beach day 
+        any many interesting things. Visit sea lions locals in La Joila aside many other 
+        breathtaking things you can do. 
+      </p>
+      <h3>Newport Beach</h3>
+      <p>The huge beach area where you can spend your time with your family is full of fire pit, grassy
+        soccer field just next to the ocean. The beach has spectacular places where you can go and see 
+        how fishermen catch fish. If you are into shopping, Fashion Isaland, one of the biggest malls in 
+        Southern California is a place to be at NewportBeach.
+      </p>
+    </div>
+    <div class="generalweather">
+      <h2>General weather report for Carlsbad</h2>
+      <p>Temperature: <span id="temperature"></span>°F</p>
+      <p>Sky conditions: <span id="description"></span></p>
+      <figure>
+        <img src="#" alt="#" id="weathericon">
+        <figcaption></figcaption>
+      </figure>
+      <p>Humidity: <span id="humidity"></span>%</p>
+    </div>
+    <hr>
+    <div class="forecast">
+      <h2>Three Day Weather Forecast</h2>
+      <div class="threeday">
+        <div class="forecast1">
+          <div id="today1"></div>
+          <div class=Day1></div>
+        </div>
+        <div class="forecast1">
+          <div id="today2"></div>
+          <div class=Day2></div>
+        </div>
+        <div class="forecast1">
+          <div id="today3"></div>
+          <div class=Day3></div>
+        </div>
+      </div>
+    </div>
+    <div class="juicepic">
+      <h2>Enjoyable Fruit juice</h2>
+      <img src="images/fruitjuice.jpg" alt="picture of juice" loading="lazy">
+    </div>
+    <div class="fruitpic">
+      <h2>Delicious Fruits</h2>
+      <img src="images/fruits.jpg" alt="picture of a fruit" loading="lazy">
+    </div>
+    <div class="fruitpic2">
+      <h2>Scrumptious Fruits</h2>
+      <img src="images/fruit.jpg" alt="picture of a fruit" loading="lazy">
+    </div>
+  </main>
+  <footer>
+    <div class="copyright">
+      &copy; |Karrass Phiri| Malawi|Bountiful Foods project|Last modified: <span id="date"></span>
+    </div>
+    <hr>
+    <div class="social">
+      <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook image"></a>
+      <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter image"></a>
+      <a href="https://linkedIn.com"><img src="images/linkedin.png" alt="linkedIn image"></a>
+
+    </div>
+
+  </footer>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
