@@ -119,7 +119,7 @@ main picture.bannerimg img{
   margin: .5vw 0vw;
   
 }
-main .action p{
+main .action p, .action2 p{
   border: 1px solid #999;
   background-color: yellow;
   color: black;
@@ -132,6 +132,12 @@ main .action p{
   position: absolute;
   bottom: -5px;
   left: 5px;
+}
+
+.action2 {
+  position: absolute;
+  bottom: -5px;
+  right: 5px;
 }
 .areasummary, .generalweather, .forecast, .forecast1, .forecast2, .forecast3, .juicepic, .fruitpic, .fruitpic2 {
   border: 1px solid #999;
@@ -189,6 +195,16 @@ main .action p{
   padding: 0;
 }
 
+.supbtn, .custbtn {
+  background-color: red;
+  color: white;
+  font-size: 1.2rem;
+  padding: .5rem;
+  margin-left: 1rem;
+}
+.custbtn {
+  margin-left: 10.5rem;
+}
 
 
 /********** CSS for Fresh page **********/
