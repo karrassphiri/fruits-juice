@@ -195,17 +195,32 @@ main .action p, .action2 p{
   padding: 0;
 }
 
-.supbtn, .custbtn {
+#supbtn, #custbtn {
   background-color: red;
   color: white;
   font-size: 1.2rem;
   padding: .5rem;
   margin-left: 1rem;
 }
-.custbtn {
+#custbtn {
   margin-left: 10.5rem;
 }
-
+.dry{
+  border: 1px solid #999;
+  padding: 5px;
+  margin-left: 15rem;
+}
+.fresh{
+  border: 1px solid #999;
+  padding: 5px;
+  margin-right: 15rem;
+}
+.fresh img {
+  width: 100%;
+}
+.dry img {
+  width: 100%;
+}
 
 /********** CSS for Fresh page **********/
 main.form {
