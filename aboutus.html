@@ -5,12 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bountiful Foods</title>
+  <title>Fruits For Juice</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/small.css">
   <link rel="stylesheet" href="css/medium.css">
   <link rel="stylesheet" href="css/large.css">
-  <meta name="description" content="This is the About Us page of Bountiful Foods project, MT ">
+  <meta name="description" content="This is the Customers' page of Fruits for Juice, MT ">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
@@ -22,96 +22,213 @@
       <img src="images/logo.jpg" alt="bountifullogo">
     </div>
     <div class="heading">
-      <h1>Bountiful Foods</h1>
+      <h1>Fruits For Juice</h1>
     </div>
     <button id="hamBtn" class="navBtn"><span>&#9776;</span><span>x</span></button>
   </header>
   <nav>
     <ul id="primaryNav">
       <li><a href="index.html">Home</a></li>
-      <li><a href="fresh.html">Fresh</a></li>
+      <li><a href="supplier.html">Suppliers</a></li>
     </ul>
   </nav>
   <div class="welcome">
-    <h1>Welcome to the About Us page</h1>
+    <h1>Welcome to customers page</h1>
   </div>
   <main>
-    <div class="bannerUs">
+    <div class="banner">
       <picture class="bannerimg">
         <source srcset="images/large.jpg" media="(min-width:960px)">
         <source srcset="images/medium.jpg" media="(min-width:564px) and (max-width:958px)">
         <img src="images/small.jpg" alt="Welcome image" loading="lazy">
       </picture>
-    </div>
-    <div class="history">
-      <h2>History of Bountiful Company</h2>
-      <p> The Bountiful company was founded in 1971 on Long Isalnd, NY. It was at first called The Nature's Bounty Co.
-
-      </p>
-    </div>
-    <div class="history2">
-      <h2>History of Carlsbad, California</h2>
-      <p>
-        Carlsbad, California, called <em>The Village By The Sea</em>, is a city along the coast in northern San Diego County.
-        This small city is closer to two big California cities — San Diego and Los Angeles. 
-        It was made to be a city in July 1952. <br> <br>
-        The first people to settle in Carlsbad were the Luiseño Indians. 
-        In 1883, Captain John A. Frazier dug a well near the coast in Carlsbad. He was happy to
-        find fresh-water, rich with minerals, and started giving it at the local train station.<br> <br>
-        After testing a second fresh-water well in the area, many of the chemicals found were similar to those used in
-        some of the most renowned spas around the world. Because of this, the town was named after the famous spa in the Bohemian town of
-        Karlsbad.
-        <br> <br>Carlsbad was officially incorporated in 1952 to avoid annexation by its northern neighbor, Oceanside. Since then, 
-        The Village By The Sea has flourished into an affluent city with a population of over 112,000 people.
-      </p>
-    </div>
-    <div class="contactinfo">
-      <h2>Contact Us</h2>
-      <h3>Phone: (916) 595-5600</h3>
-      <p></p>
-      <h3>Email: bountifulfood@bountiful.org</h3>
-      <p></p>
-      <h3>Address: 2600 River Plaza Dr.
-        Sacramento, CA 95833</h3>
-      <p></p>
+      <h2 class="formtitle">Order your fruits</h2>
     </div>
 
-    <div class="locateus">
-      <h2>Locate Us</h2>
-      <div class="contactmap">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d213858.4338959745!2d-117.55843216296938!3d33.12122705657873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA%2C%20USA!5e0!3m2!1sen!2smw!4v1670331473708!5m2!1sen!2smw"
-          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <form name="form">
+      
+      <fieldset class="fruitslist">
+        <legend>Select fruits to <strong>view</strong> the total nutrition</legend>
+
+        <div class="input-group">
+          <select name="Three specials" id="first-special">
+            <option value="Apple">Apple</option>
+            <option value="Apricot">Apricot</option>
+            <option value="Avocado">Avocado</option>
+            <option value="Banana">Banana</option>
+            <option value="Blackberry">Blackberry</option>
+            <option value="Blueberry">Blueberry</option>
+            <option value="Cherry">Cherry</option>
+            <option value="Dragonfruit">Dragonfruit</option>
+            <option value="Durio">Durio</option>
+            <option value="Feijoa">Feijoa</option>
+            <option value="Fig">Fig</option>
+            <option value="Gooseberry">Gooseberry</option>
+            <option value="Grape">Grape</option>
+            <option value="Grapes">Garpes</option>
+            <option value="Greenapples">GreenApples</option>
+            <option value="Guava">Guava</option>
+            <option value="Kiwi">Kiwi</option>
+            <option value="Kiwifruit">KiwiFruit</option>
+            <option value="Lemon">Lemon</option>
+            <option value="Lime">Lime</option>
+            <option value="Lingonberry">Lingonberry</option>
+            <option value="Lychee">Lychee</option>
+            <option value="Mango">Mango</option>
+            <option value="Melon">Melon</option>
+            <option value="Morus">Morus</option>
+            <option value="Orange">Orange</option>
+            <option value="Papaye">Papaye</option>
+            <option value="Passionfruit">PassionFruit</option>
+            <option value="Pear">Pear</option>
+            <option value="Persiommon">Persiommon</option>
+            <option value="Pineapple">Pineapple</option>
+            <option value="Pitannaya">Pitannaya</option>
+            <option value="Plum">Plum</option>
+            <option value="Punica">Punica</option>
+            <option value="Raspberry">Raspberry</option>
+            <option value="Strawberry">Strawberry</option>
+            <option value="Tangerine">Tangerine</option>
+            <option value="Tomato">Tomato</option>
+            <option value="Watermelon">Watermelon</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <select name="Three specials" id="second-special">
+            <option value="Apricot">Apricot</option>
+            <option value="Apple">Apple</option>
+            <option value="Avocado">Avocado</option>
+            <option value="Banana">Banana</option>
+            <option value="Blackberry">Blackberry</option>
+            <option value="Blueberry">Blueberry</option>
+            <option value="Cherry">Cherry</option>
+            <option value="Dragonfruit">Dragonfruit</option>
+            <option value="Durio">Durio</option>
+            <option value="Feijoa">Feijoa</option>
+            <option value="Fig">Fig</option>
+            <option value="Gooseberry">Gooseberry</option>
+            <option value="Grape">Grape</option>
+            <option value="Grapes">Garpes</option>
+            <option value="Greenapples">GreenApples</option>
+            <option value="Guava">Guava</option>
+            <option value="Kiwi">Kiwi</option>
+            <option value="Kiwifruit">KiwiFruit</option>
+            <option value="Lemon">Lemon</option>
+            <option value="Lime">Lime</option>
+            <option value="Lingonberry">Lingonberry</option>
+            <option value="Lychee">Lychee</option>
+            <option value="Mango">Mango</option>
+            <option value="Melon">Melon</option>
+            <option value="Morus">Morus</option>
+            <option value="Orange">Orange</option>
+            <option value="Papaye">Papaye</option>
+            <option value="Passionfruit">PassionFruit</option>
+            <option value="Pear">Pear</option>
+            <option value="Persiommon">Persiommon</option>
+            <option value="Pineapple">Pineapple</option>
+            <option value="Pitannaya">Pitannaya</option>
+            <option value="Plum">Plum</option>
+            <option value="Punica">Punica</option>
+            <option value="Raspberry">Raspberry</option>
+            <option value="Strawberry">Strawberry</option>
+            <option value="Tangerine">Tangerine</option>
+            <option value="Tomato">Tomato</option>
+            <option value="Watermelon">Watermelon</option>
+
+          </select>
+        </div>
+        <div class="input-group">
+          <select name="Three specials" id="third-special">
+            <option value="Avocado">Avocado</option>
+            <option value="Apple">Apple</option>
+            <option value="Apricot">Apricot</option>
+            <option value="Banana">Banana</option>
+            <option value="Blackberry">Blackberry</option>
+            <option value="Blueberry">Blueberry</option>
+            <option value="Cherry">Cherry</option>
+            <option value="Dragonfruit">Dragonfruit</option>
+            <option value="Durio">Durio</option>
+            <option value="Feijoa">Feijoa</option>
+            <option value="Fig">Fig</option>
+            <option value="Gooseberry">Gooseberry</option>
+            <option value="Grape">Grape</option>
+            <option value="Grapes">Garpes</option>
+            <option value="Greenapples">GreenApples</option>
+            <option value="Guava">Guava</option>
+            <option value="Kiwi">Kiwi</option>
+            <option value="Kiwifruit">KiwiFruit</option>
+            <option value="Lemon">Lemon</option>
+            <option value="Lime">Lime</option>
+            <option value="Lingonberry">Lingonberry</option>
+            <option value="Lychee">Lychee</option>
+            <option value="Mango">Mango</option>
+            <option value="Melon">Melon</option>
+            <option value="Morus">Morus</option>
+            <option value="Orange">Orange</option>
+            <option value="Papaye">Papaye</option>
+            <option value="Passionfruit">PassionFruit</option>
+            <option value="Pear">Pear</option>
+            <option value="Persiommon">Persiommon</option>
+            <option value="Pineapple">Pineapple</option>
+            <option value="Pitannaya">Pitannaya</option>
+            <option value="Plum">Plum</option>
+            <option value="Punica">Punica</option>
+            <option value="Raspberry">Raspberry</option>
+            <option value="Strawberry">Strawberry</option>
+            <option value="Tangerine">Tangerine</option>
+            <option value="Tomato">Tomato</option>
+            <option value="Watermelon">Watermelon</option>
+          </select>
+        </div>
+        
+      </fieldset>
+
+      <div><input id="submitButton" type="submit" value="View total nutrition" class="submitBtn"> </div>
+    </form>
+
+    <div id="modal-container" class="formresults">
+      <div id="modal-content">
+        
+        <h3>Fruits selected are :</h3>
+        <div id="nutrition"></div>
+        <p id="First"></p>
+        <p id="Second"></p>
+        <p id="Third"></p>
+
+        <h3>Total nutritions:</h3>
+        <div id="summary"></div>
+
       </div>
     </div>
-    <div class="juice">
-      <h2>Enjoyable Fruit juice</h2>
-      <img src="images/fruitjuice.jpg" alt="picture of juice" loading="lazy">
-    </div>
-    <div class="fruit">
-      <h2>Delicious Fruits</h2>
-      <img src="images/fruits.jpg" alt="picture of a fruit" loading="lazy">
-    </div>
-    <div class="fruit2">
-      <h2>Scrumptious Fruits</h2>
-      <img src="images/fruit.jpg" alt="picture of a fruit" loading="lazy">
-    </div>
+   
+    <<form method="get" action="thankyou.html">
+      <fieldset>
+        <legend> Customer information </legend>
+        <label class="top"> First Name*: <input type="text" name="fname" required></label>
+        <label class="top"> Last Name*: <input type="text" name="lname" required></label>
+        <label class="top"> Phone*: <input type="tel" name="phone" placeholder="0999 999 999" required></label>
+        <label class="top"> Email*: <input type="email" name="email" placeholder="phikahss@gmail.com"></label>
+      </fieldset>
+    </form> >
+   
   </main>
   <footer>
     <div class="copyright">
-      &copy; |Karrass Phiri| Malawi|Bountiful Foods project|Last modified: <span id="date"></span>
+      &copy; Fruits For Juice | Karrass Phiri| WDD330 project
     </div>
     <hr>
     <div class="social">
       <a href="https://facebook.com"><img src="images/facebook.png" alt="Facebook image"></a>
-      <a href="https://twitter.com"><img src="images/twitter.png" alt="Twitter image"></a>
       <a href="https://linkedIn.com"><img src="images/linkedin.png" alt="linkedIn image"></a>
+
     </div>
 
   </footer>
   <script src="js/scripts.js"></script>
   <script src="js/form.js"></script>
+  <script src="js/form2.js"></script>
+
 </body>
 
 </html>
