@@ -46,7 +46,7 @@
     </div>
 
     <form name="form">
-      
+
       <fieldset class="fruitslist">
         <legend>Select fruits to <strong>view</strong> the total nutrition</legend>
 
@@ -181,7 +181,7 @@
             <option value="Watermelon">Watermelon</option>
           </select>
         </div>
-        
+
       </fieldset>
 
       <div><input id="submitButton" type="submit" value="View total nutrition" class="submitBtn"> </div>
@@ -189,7 +189,7 @@
 
     <div id="modal-container" class="formresults">
       <div id="modal-content">
-        
+
         <h3>Fruits selected are :</h3>
         <div id="nutrition"></div>
         <p id="First"></p>
@@ -201,17 +201,168 @@
 
       </div>
     </div>
-   
-    <<form method="get" action="thankyou.html">
+
+    <form method="get" action="thankyou.html">
       <fieldset>
-        <legend> Customer information </legend>
-        <label class="top"> First Name*: <input type="text" name="fname" required></label>
-        <label class="top"> Last Name*: <input type="text" name="lname" required></label>
-        <label class="top"> Phone*: <input type="tel" name="phone" placeholder="0999 999 999" required></label>
-        <label class="top"> Email*: <input type="email" name="email" placeholder="phikahss@gmail.com"></label>
+        <legend>Order your fruits- Fill this form</legend>
+
+
+        <fieldset>
+          <legend> Customer information </legend>
+          <label class="top"> First Name*: <input type="text" name="fname" required></label>
+          <label class="top"> Last Name*: <input type="text" name="lname" required></label>
+          <label class="top"> Phone*: <input type="tel" name="phone" placeholder="0999 999 999" required></label>
+          <label class="top"> Email*: <input type="email" name="email" placeholder="phikahss@gmail.com"></label>
+        </fieldset>
+        <fieldset>
+          <legend>Customer address</legend>
+          <label class="top">Street*: <input type="text" name="street" required></label>
+          <label class="top">City*: <input type="text" name="city" required></label>
+        </fieldset>
+        <fieldset>
+          <legend>Fruits to order</legend>
+          <div class="input-group">
+            <select name="Three specials" id="special-1">
+              <option value="Pineapple">Pineapple</option>
+              <option value="Apple">Apple</option>
+              <option value="Apricot">Apricot</option>
+              <option value="Avocado">Avocado</option>
+              <option value="Banana">Banana</option>
+              <option value="Blackberry">Blackberry</option>
+              <option value="Blueberry">Blueberry</option>
+              <option value="Cherry">Cherry</option>
+              <option value="Dragonfruit">Dragonfruit</option>
+              <option value="Durio">Durio</option>
+              <option value="Feijoa">Feijoa</option>
+              <option value="Fig">Fig</option>
+              <option value="Gooseberry">Gooseberry</option>
+              <option value="Grape">Grape</option>
+              <option value="Grapes">Garpes</option>
+              <option value="Greenapples">GreenApples</option>
+              <option value="Guava">Guava</option>
+              <option value="Kiwi">Kiwi</option>
+              <option value="Kiwifruit">KiwiFruit</option>
+              <option value="Lemon">Lemon</option>
+              <option value="Lime">Lime</option>
+              <option value="Lingonberry">Lingonberry</option>
+              <option value="Lychee">Lychee</option>
+              <option value="Mango">Mango</option>
+              <option value="Melon">Melon</option>
+              <option value="Morus">Morus</option>
+              <option value="Orange">Orange</option>
+              <option value="Papaye">Papaye</option>
+              <option value="Passionfruit">PassionFruit</option>
+              <option value="Pear">Pear</option>
+              <option value="Persiommon">Persiommon</option>
+              <option value="Pitannaya">Pitannaya</option>
+              <option value="Plum">Plum</option>
+              <option value="Punica">Punica</option>
+              <option value="Raspberry">Raspberry</option>
+              <option value="Strawberry">Strawberry</option>
+              <option value="Tangerine">Tangerine</option>
+              <option value="Tomato">Tomato</option>
+              <option value="Watermelon">Watermelon</option>
+            </select>
+          </div>
+
+          <div class="input-group">
+            <select name="Three specials" id="special-2">
+              <option value="Grape">Grape</option>
+              <option value="Apricot">Apricot</option>
+              <option value="Apple">Apple</option>
+              <option value="Avocado">Avocado</option>
+              <option value="Banana">Banana</option>
+              <option value="Blackberry">Blackberry</option>
+              <option value="Blueberry">Blueberry</option>
+              <option value="Cherry">Cherry</option>
+              <option value="Dragonfruit">Dragonfruit</option>
+              <option value="Durio">Durio</option>
+              <option value="Feijoa">Feijoa</option>
+              <option value="Fig">Fig</option>
+              <option value="Gooseberry">Gooseberry</option>
+              <option value="Grapes">Garpes</option>
+              <option value="Greenapples">GreenApples</option>
+              <option value="Guava">Guava</option>
+              <option value="Kiwi">Kiwi</option>
+              <option value="Kiwifruit">KiwiFruit</option>
+              <option value="Lemon">Lemon</option>
+              <option value="Lime">Lime</option>
+              <option value="Lingonberry">Lingonberry</option>
+              <option value="Lychee">Lychee</option>
+              <option value="Mango">Mango</option>
+              <option value="Melon">Melon</option>
+              <option value="Morus">Morus</option>
+              <option value="Orange">Orange</option>
+              <option value="Papaye">Papaye</option>
+              <option value="Passionfruit">PassionFruit</option>
+              <option value="Pear">Pear</option>
+              <option value="Persiommon">Persiommon</option>
+              <option value="Pineapple">Pineapple</option>
+              <option value="Pitannaya">Pitannaya</option>
+              <option value="Plum">Plum</option>
+              <option value="Punica">Punica</option>
+              <option value="Raspberry">Raspberry</option>
+              <option value="Strawberry">Strawberry</option>
+              <option value="Tangerine">Tangerine</option>
+              <option value="Tomato">Tomato</option>
+              <option value="Watermelon">Watermelon</option>
+
+            </select>
+          </div>
+          <div class="input-group">
+            <select name="Three specials" id="special-3">
+              <option value="Banana">Banana</option>
+              <option value="Avocado">Avocado</option>
+              <option value="Apple">Apple</option>
+              <option value="Apricot">Apricot</option>
+              <option value="Blackberry">Blackberry</option>
+              <option value="Blueberry">Blueberry</option>
+              <option value="Cherry">Cherry</option>
+              <option value="Dragonfruit">Dragonfruit</option>
+              <option value="Durio">Durio</option>
+              <option value="Feijoa">Feijoa</option>
+              <option value="Fig">Fig</option>
+              <option value="Gooseberry">Gooseberry</option>
+              <option value="Grape">Grape</option>
+              <option value="Grapes">Garpes</option>
+              <option value="Greenapples">GreenApples</option>
+              <option value="Guava">Guava</option>
+              <option value="Kiwi">Kiwi</option>
+              <option value="Kiwifruit">KiwiFruit</option>
+              <option value="Lemon">Lemon</option>
+              <option value="Lime">Lime</option>
+              <option value="Lingonberry">Lingonberry</option>
+              <option value="Lychee">Lychee</option>
+              <option value="Mango">Mango</option>
+              <option value="Melon">Melon</option>
+              <option value="Morus">Morus</option>
+              <option value="Orange">Orange</option>
+              <option value="Papaye">Papaye</option>
+              <option value="Passionfruit">PassionFruit</option>
+              <option value="Pear">Pear</option>
+              <option value="Persiommon">Persiommon</option>
+              <option value="Pineapple">Pineapple</option>
+              <option value="Pitannaya">Pitannaya</option>
+              <option value="Plum">Plum</option>
+              <option value="Punica">Punica</option>
+              <option value="Raspberry">Raspberry</option>
+              <option value="Strawberry">Strawberry</option>
+              <option value="Tangerine">Tangerine</option>
+              <option value="Tomato">Tomato</option>
+              <option value="Watermelon">Watermelon</option>
+            </select>
+          </div>
+          <h4>Any other details (optional)</h4>
+          <div class="input-group">
+            <label class="submitButton" id="msg"></label>
+            <label><textarea class="instructionBox" id="instructions" name="b_description"></textarea></label>
+          </div>
+        </fieldset>
+        <div><input id="submitButton" type="submit" value="Place an order" class="submitBtn"> </div>
+
       </fieldset>
-    </form> >
-   
+    </form>
+
   </main>
   <footer>
     <div class="copyright">
