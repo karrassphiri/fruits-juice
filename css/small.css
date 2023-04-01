@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap');
 
+
 footer,
 header, nav {
   display: flex;
@@ -118,7 +119,9 @@ main picture.bannerimg img{
   margin: 1rem;
   margin: .5vw 0vw;
   
+  
 }
+
 main .action p, .action2 p{
   border: 1px solid #999;
   background-color: yellow;
@@ -139,14 +142,13 @@ main .action p, .action2 p{
   bottom: -5px;
   right: 5px;
 }
-.areasummary, .generalweather, .forecast, .forecast1, .forecast2, .forecast3, .juicepic, .fruitpic, .fruitpic2 {
+.background,  .siteuse {
   border: 1px solid #999;
   padding: 5px;
   margin: 1rem;
   text-align: justify;
 
 }
-
 
 .areasummary p{
   padding: .5rem;
@@ -160,12 +162,9 @@ main .action p, .action2 p{
   font-family: 'Montserrat', sans-serif;
  }
 
-.juicepic, .fruitpic, .fruitpic2 {
-  border: 1px solid #999;
-  display: none;
-}
 
-.welcome h1, .juicepic h2, .fruitpic h2, .fruitpic2 h2, .generalweather h2, .areasummary h2, .forecast h2{
+
+.welcome h1{
   text-align: center;
   background-color: yellow;
   color: red;
@@ -173,30 +172,15 @@ main .action p, .action2 p{
   font-family: 'Montserrat', sans-serif;
 }
 
-.generalweather p, .forecast1 {
-  padding: 1rem;
-  margin: .5rem;
-  text-align: center;
-  font-size: 1.2rem;
-  font-family: 'Lato', sans-serif;
 
-}
-.generalweather p{
-  text-align: left;
-  font-family: 'Lato', sans-serif;
 
-}
-.forecast h2, .generalweather h2, .areasummary h2, .juicepic h2, .fruitpic h2, .fruitpic2 h2{
-  padding: .5rem;
+.background h2, .siteuse h2, .fcat h2, .formtitle{
+  padding: .2rem;
   height:fit-content;
   font-family: 'Montserrat', sans-serif;
 }
 
-.juicepic img, .fruitpic img, .fruitpic2 img, .juice img, .fruit img, .fruit2 img {
-  width: 100%;
-  height: auto;
-  padding: 0;
-}
+
 main .btncontainer {
   display: flex;
   flex-direction: row;
@@ -208,6 +192,7 @@ main .btncontainer {
   color: white;
 
 }
+
 .sup, .cust{
   width: 100%;
   padding: 3px;
@@ -231,11 +216,15 @@ main .btncontainer {
   padding: 5px;
   width: 50%;  
 }
-.fresh img {
+.fresh img, .dry img {
   width: 100%;
+  border-radius: 80%;
 }
-.dry img {
-  width: 100%;
+
+.fresh h3, .dry h3 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
 }
 
 /********** CSS for Fresh page **********/
