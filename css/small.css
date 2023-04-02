@@ -79,6 +79,9 @@ nav ul li a {
   color: white;
   font-family: 'Montserrat', sans-serif;
 }
+.action a, .action2 a, .btncontainer a, .fresh a, .dry a {
+  text-decoration: none;
+}
 nav ul.open {
   display: block;
 }
@@ -206,16 +209,12 @@ main .btncontainer {
 }
 
 
-.dry{
-  border: 1px solid #999;
+.dry, .fresh{
+  border: 0px;
   padding: 5px;
   width: 50%;  
 }
-.fresh{
-  border: 1px solid #999;
-  padding: 5px;
-  width: 50%;  
-}
+
 .fresh img, .dry img {
   width: 100%;
   border-radius: 80%;
@@ -227,7 +226,7 @@ main .btncontainer {
   text-decoration: none;
 }
 
-/********** CSS for Fresh page **********/
+/********** CSS for customers and suppliers form pages **********/
 main.form {
   position: relative;
   background-color: #eee;
@@ -328,39 +327,5 @@ form input.submitBtn {
 }
 
 
-/********** CSS for About Us page **********/
-.resource {
-  display: flex;
-  flex-direction: column;
- 
-}
-.resource a{
-  color: white;
-  text-decoration: none;
-  margin-top: .5rem;
-}
-.history p, .history2 p {
-  padding: 1rem;
-  font-family: 'Lato', sans-serif;
-
-}
-.contactinfo h3{
-  padding: 1rem;
-  font-family: 'Montserrat', sans-serif;
-}
-
-.bannerUs {
-  margin: .5vw 0vw;
-}
-.juice, .fruit, .fruit2 {
-  display: none;
-}
-.contactmap{
-  height: 80%;
-}
-iframe {
-  width: 100%;
-  height: auto;
-}
 
  
