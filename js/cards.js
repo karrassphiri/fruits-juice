@@ -1,4 +1,4 @@
-const reqtURL = 'https://karrassphiri.github.io/fruits-juice/fruits-juice/json/data2.json';
+const reqtURL = 'https://karrassphiri.github.io/fruits-juice/json/data2.json';
 
 const gridbutton = document.querySelector("#grid");
 const display = document.querySelector("#cards");
