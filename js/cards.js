@@ -1,7 +1,6 @@
-const reqtURL = 'https://karrassphiri.github.io/wdd230/chambers/json/data.json';
+const reqtURL = 'https://karrassphiri.github.io/fruits-juice/fruits-juice/json/data2.json';
 
 const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
 const display = document.querySelector("#cards");
 
 
@@ -61,11 +60,5 @@ getBusinesses("grid");
 gridbutton.addEventListener("click", () => {
     display.classList.add("grid");
   
-});
-
-listbutton.addEventListener("click", () => {
-    display.classList.add("list");
-    display.classList.remove("grid");
-  
-});
+})
 
