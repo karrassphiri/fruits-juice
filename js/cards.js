@@ -13,8 +13,8 @@ function buildfruitsCards(info, type) {
 
     card.setAttribute("class", "section");
     p.innerHTML = `${fruit.name}`;
-    p2.innerHTML = `${fruit.phone}`;
-    p3.innerHTML = `${fruit.motto}`;
+    p2.innerHTML = `${fruit.ftype}`;
+    p3.innerHTML = `${fruit.price}`;
 
     if (type == "grid") {
       let img = document.createElement("img");
