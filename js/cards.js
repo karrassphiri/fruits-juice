@@ -1,4 +1,4 @@
-const reqtURL = 'https://karrassphiri.github.io/wdd230/fruits/data2.json';
+const reqtURL = 'https://karrassphiri.github.io/wdd230/fruits/data.json';
 
 const gridbutton = document.querySelector("#grid");
 const display = document.querySelector("#cards");
