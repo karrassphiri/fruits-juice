@@ -3,7 +3,7 @@ const reqtURL = 'https://karrassphiri.github.io/wdd230/fruits/fruits.json';
 const display = document.querySelector("#cards");
 
 
-function buildBusinessCards(info, type) {
+function buildfruitsCards(info, type) {
   let data = info.fruits;
   data.forEach((fruit) => {
     let card = document.createElement("section");
@@ -44,17 +44,17 @@ function buildBusinessCards(info, type) {
   });
 }
 
-async function getBusinesses(type) {
+async function getfruits(type) {
   let response = await fetch(reqtURL);
   if (response.ok) {
     let data = await response.json();
-    buildBusinessCards(data, type);
+    buildfruitsCards(data, type);
   } else {
     throw Error(response.statusText);
   }
 }
 
-getBusinesses("grid");
+getfruits("grid");
 
 gridbutton.addEventListener("click", () => {
     display.classList.add("grid");
