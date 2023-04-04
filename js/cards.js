@@ -1,12 +1,11 @@
 const reqtURL = 'https://karrassphiri.github.io/wdd230/fruits/fruits.json';
 
-const gridbutton = document.querySelector("#grid");
 const display = document.querySelector("#cards");
 
 
 function buildBusinessCards(info, type) {
-  let data = info.businesses;
-  data.forEach((business) => {
+  let data = info.fruits;
+  data.forEach((fruit) => {
     let card = document.createElement("section");
     let p = document.createElement("p");
     let p2 = document.createElement("p");
@@ -14,24 +13,24 @@ function buildBusinessCards(info, type) {
     let a = document.createElement("a");
 
     card.setAttribute("class", "section");
-    p.innerHTML = `${business.address}`;
-    p2.innerHTML = `${business.phone}`;
-    p3.innerHTML = `${business.motto}`;
-    a.innerHTML = `${business.site}`;
-    a.setAttribute("href", `${business.site}`);
+    p.innerHTML = `${fruit.fname}`;
+    p2.innerHTML = `${fruit.phone}`;
+    p3.innerHTML = `${fruit.motto}`;
+    a.innerHTML = `${fruit.site}`;
+    a.setAttribute("href", `${fruit.site}`);
 
     if (type == "grid") {
       let img = document.createElement("img");
-      img.setAttribute("src", `${business.photo}`);
-      img.setAttribute("alt", `${business.name}`);
+      img.setAttribute("src", `${fruit.photo}`);
+      img.setAttribute("alt", `${fruit.name}`);
       img.setAttribute("loading", "lazy");
       card.append(img);
       let h3 = document.createElement("h3");
-      h3.innerHTML = `${business.name}`;
+      h3.innerHTML = `${fruit.name}`;
       card.append(h3);
     } else {
       let h2 = document.createElement("h2");
-      h2.innerHTML = `${business.name}`;
+      h2.innerHTML = `${fruit.name}`;
       card.append(h2);
     }
 
