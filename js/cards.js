@@ -12,7 +12,6 @@ function buildfruitsCards(info, type) {
     let p3 = document.createElement("p");
 
     card.setAttribute("class", "section");
-    p.innerHTML = `${fruit.name}`;
     p2.innerHTML = `${fruit.ftype}`;
     p3.innerHTML = `${fruit.price}`;
 
