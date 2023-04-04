@@ -13,7 +13,7 @@ function buildBusinessCards(info, type) {
     let a = document.createElement("a");
 
     card.setAttribute("class", "section");
-    p.innerHTML = `${fruit.fname}`;
+    p.innerHTML = `${fruit.name}`;
     p2.innerHTML = `${fruit.phone}`;
     p3.innerHTML = `${fruit.motto}`;
     a.innerHTML = `${fruit.site}`;

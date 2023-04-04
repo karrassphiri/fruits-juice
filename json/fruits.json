@@ -1,79 +1,87 @@
 
 
 {
-    "businesses": [
-      {
-        "name": "Mango",
-        "address": "Box 129, Karonga, Malawi",
-        "phone": "0999 372 422",
-        "site": "http://www.ells.com/",
-        "photo": "https://karrassphiri.github.io/wdd230/chambers/images/cloth.jpg",
-        "membership": "Gold",
-        "motto":  "Motto: Look Smart, Look modern."
-      },
-     
-      {
-        "name": "J & J Home suppliers",
-        "address": "Kawala market, area 8",
-        "phone": "0888 342 432",
-        "site": "https://jojahomies.com/",
-        "photo": "https://karrassphiri.github.io/wdd230/chambers/images/home.jpg",
-        "membership": "Gold",
-        "motto": "Motto: Where you can find your home."
-      },
-      {
-        "name": "J & J Saloon and Barbershop",
-        "address": "Kawala market, area 8",
-        "phone": "0888 342 432",
-        "site": "https://jojahomies.com/",
-        "photo": "https://karrassphiri.github.io/wdd230/chambers/images/bbshop.jpg",
-        "membership": "Silver",
-        "motto": "Motto: Look smart in town."
-      },
-      {
-        "name": "Triza General Consultants",
-        "address": "area 36",
-        "phone": "0999 433 722",
-        "site": "https://www.trizaconsults.com/",
-        "photo": "https://karrassphiri.github.io/wdd230/chambers/images/trizacons.jpg",
-        "membership": "Silver",
-        "motto": "Motto: We advise, you implement."
-      },
-      {
-        "name": "Mai Silvana",
-        "address": "Likuni, By-pass road",
-        "phone": "0999 373 133",
-        "site": "https://farmproduce.com/",
-        "photo": "https://karrassphiri.github.io/wdd230/chambers/images/silvfam.jpg",
-        "membership": "Silver",
-        "motto": "Motto: Where you can find farm produce."
-      },
-      {
-        "name": "Bengo Restaurant",
-        "address": "area 2, bwalo la Njovu",
-        "phone": "0888 383 422",
-        "site": "https://bengofoodworth.com/",
-        "photo": "https://karrassphiri.github.io/wdd230/chambers/images/restaurant.jpg",
-        "membership": "Bronze",
-        "motto": "Motto: Cheap and high quality food."
-      },
-      {
-        "name": "Pick N drop taxi",
-        "address": "Biwi, area 7",
-        "phone": "0999 833 784",
-        "site": "https://www.picndrop.com",
-        "photo": "https://karrassphiri.github.io/wdd230/chambers/images/taxi.jpg",
-        "membership": "Bronze",
-        "motto": "Motto: In time and everywhere"
-      },
-      {
-        "name": "Phiri Crop supplier",
-        "address": "Likuni, along By-pass road",
-        "phone": "0888 284 273",
-        "site": "https://www.farmerzone.com/",
-        "photo": "https://karrassphiri.github.io/wdd230/chambers/images/foodshop.jpg",
-        "membership": "Bronze",
-        "motto": "Motto: We take you to the farm."
-      }
-    ]
-  }
+  "fruits": [
+    {
+      "name": "Mango",
+      "address": "Box 129, Karonga, Malawi",
+      "phone": "0999 372 422",
+      "site": "http://www.ells.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/cloth.jpg",
+      "membership": "Gold",
+      "motto":  "Motto: Look Smart, Look modern."
+    },
+    {
+      "name": "Amos Accountant consultants",
+      "address": "area 49, Shire block A",
+      "phone": "0999 483 642",
+      "site": "https://amoscons.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/amosconsultant.jpg",
+      "membership": "Gold",
+      "motto": "Motto: Manage your finances with us."
+    },
+    {
+      "name": "J & J Home suppliers",
+      "address": "Kawala market, area 8",
+      "phone": "0888 342 432",
+      "site": "https://jojahomies.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/home.jpg",
+      "membership": "Gold",
+      "motto": "Motto: Where you can find your home."
+    },
+    {
+      "name": "J & J Saloon and Barbershop",
+      "address": "Kawala market, area 8",
+      "phone": "0888 342 432",
+      "site": "https://jojahomies.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/bbshop.jpg",
+      "membership": "Silver",
+      "motto": "Motto: Look smart in town."
+    },
+    {
+      "name": "Triza General Consultants",
+      "address": "area 36",
+      "phone": "0999 433 722",
+      "site": "https://www.trizaconsults.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/trizacons.jpg",
+      "membership": "Silver",
+      "motto": "Motto: We advise, you implement."
+    },
+    {
+      "name": "Mai Silvana",
+      "address": "Likuni, By-pass road",
+      "phone": "0999 373 133",
+      "site": "https://farmproduce.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/silvfam.jpg",
+      "membership": "Silver",
+      "motto": "Motto: Where you can find farm produce."
+    },
+    {
+      "name": "Bengo Restaurant",
+      "address": "area 2, bwalo la Njovu",
+      "phone": "0888 383 422",
+      "site": "https://bengofoodworth.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/restaurant.jpg",
+      "membership": "Bronze",
+      "motto": "Motto: Cheap and high quality food."
+    },
+    {
+      "name": "Pick N drop taxi",
+      "address": "Biwi, area 7",
+      "phone": "0999 833 784",
+      "site": "https://www.picndrop.com",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/taxi.jpg",
+      "membership": "Bronze",
+      "motto": "Motto: In time and everywhere"
+    },
+    {
+      "name": "Phiri Crop supplier",
+      "address": "Likuni, along By-pass road",
+      "phone": "0888 284 273",
+      "site": "https://www.farmerzone.com/",
+      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/foodshop.jpg",
+      "membership": "Bronze",
+      "motto": "Motto: We take you to the farm."
+    }
+  ]
+}
