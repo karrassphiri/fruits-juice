@@ -4,57 +4,51 @@
   "fruits": [
     {
       "name": "Mango",
-      "phone": "0999 372 422",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/cloth.jpg",
-      "motto":  "Motto: Look Smart, Look modern."
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
+      "price":  "$ 2.00"
     },
     {
       "name": "Mango",
-      "phone": "0999 372 422",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/cloth.jpg",
-      "motto":  "Motto: Look Smart, Look modern."
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
+      "price":  "$ 2.00"
     },
     {
       "name": "Mango",
-      "phone": "0999 372 422",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/cloth.jpg",
-      "motto":  "Motto: Look Smart, Look modern."
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
+      "price":  "$ 2.00"
     },
     {
       "name": "Mango",
-      "phone": "0999 372 422",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/cloth.jpg",
-      "motto":  "Motto: Look Smart, Look modern."
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
+      "price":  "$ 2.00"
     },
     {
       "name": "Mango",
-      "phone": "0999 372 422",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/cloth.jpg",
-      "motto":  "Motto: Look Smart, Look modern."
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
+      "price":  "$ 2.00"
     },
     {
       "name": "Mango",
-      "phone": "0999 372 422",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/cloth.jpg",
-      "motto":  "Motto: Look Smart, Look modern."
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
+      "price":  "$ 2.00"
     },
     {
       "name": "Mango",
-      "phone": "0999 372 422",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/cloth.jpg",
-      "motto":  "Motto: Look Smart, Look modern."
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
+      "price":  "$ 2.00"
     },
     {
       "name": "Mango",
-      "phone": "0999 372 422",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/cloth.jpg",
-      "motto":  "Motto: Look Smart, Look modern."
-    },
-    {
-      "name": "Mango",
-      "phone": "0999 372 422",
-      "photo": "https://karrassphiri.github.io/wdd230/chambers/images/cloth.jpg",
-      "motto":  "Motto: Look Smart, Look modern."
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
+      "price":  "$ 2.00"
     }
   ]
 }
