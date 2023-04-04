@@ -11,15 +11,7 @@
         "membership": "Gold",
         "motto":  "Motto: Look Smart, Look modern."
       },
-      {
-        "name": "Amos Accountant consultants",
-        "address": "area 49, Shire block A",
-        "phone": "0999 483 642",
-        "site": "https://amoscons.com/",
-        "photo": "https://karrassphiri.github.io/wdd230/chambers/images/amosconsultant.jpg",
-        "membership": "Gold",
-        "motto": "Motto: Manage your finances with us."
-      },
+     
       {
         "name": "J & J Home suppliers",
         "address": "Kawala market, area 8",
