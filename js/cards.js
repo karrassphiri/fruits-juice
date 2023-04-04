@@ -10,14 +10,11 @@ function buildfruitsCards(info, type) {
     let p = document.createElement("p");
     let p2 = document.createElement("p");
     let p3 = document.createElement("p");
-    let a = document.createElement("a");
 
     card.setAttribute("class", "section");
     p.innerHTML = `${fruit.name}`;
     p2.innerHTML = `${fruit.phone}`;
     p3.innerHTML = `${fruit.motto}`;
-    a.innerHTML = `${fruit.site}`;
-    a.setAttribute("href", `${fruit.site}`);
 
     if (type == "grid") {
       let img = document.createElement("img");
@@ -37,7 +34,6 @@ function buildfruitsCards(info, type) {
     card.appendChild(p);
     card.appendChild(p2);
     card.appendChild(p3);
-    card.appendChild(a);
 
     display.classList.add(type);
     display.append(card);
