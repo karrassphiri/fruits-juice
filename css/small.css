@@ -215,17 +215,27 @@ main .btncontainer {
   border: 0px;
   padding: 5px;
   width: 50%;  
+ 
 }
 
 .fresh img, .dry img {
   width: 100%;
-  border-radius: 80%;
+  border-radius: 80px;
+  width: 60%;
+ 
 }
+
 
 .fresh h3, .dry h3 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   text-decoration: none;
+}
+.dry img {
+  margin-left: 35px;
+}
+.fresh img {
+  margin-left: 35px;
 }
 /********** CSS for fruit categories page **********/
 
@@ -236,6 +246,8 @@ main .btncontainer {
 }
 #directory , section img{
   padding: 10px 0;
+  border-radius: 80px;
+
 }
 
 #directory button, section {
@@ -266,8 +278,15 @@ section h3 {
   display: block;
   width: auto;
 }
+#directory img {
+  width: 200px;
+  height: auto;
+}
 section img {
   width: 100%;
+}
+section {
+  background-color: #fff;
 }
 .grid section {
   flex-direction: column;

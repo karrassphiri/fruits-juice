@@ -79,7 +79,12 @@
       width: 90%;
       height: fit-content;
     }
-      
+    .dry img {
+      margin-left: 50px;
+    }
+    .fresh img {
+      margin-left: 50px;
+    }
   
     /********** CSS for customer page **********/
     main {
