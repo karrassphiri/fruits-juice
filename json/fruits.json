@@ -3,52 +3,143 @@
 {
   "fruits": [
     {
-      "name": "Mango",
+      "name": "Almonds",
       "ftype": "fresh",
-      "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
-      "price":  "$ 2.00"
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/almonds.jpg",
+      "price":  "MK 20.00"
+    },
+    {
+      "name": "Apple",
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/apple.jpg",
+      "price":  "MK 150.00"
+    },
+    {
+      "name": "Apricot",
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/apricot.jpg",
+      "price":  "MK 100.00"
+    },
+    {
+      "name": "Avocado",
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/avocado.jpg",
+      "price":  "MK 100.00"
+    },
+    {
+      "name": "banana",
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/banana.jpg",
+      "price":  "MK 2000.00"
+    },
+    {
+      "name": "Blackberry",
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/blackberry.jpg",
+      "price":  "MK 1500.00"
+    },
+    {
+      "name": "Cashew",
+      "ftype": "dry",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/cashew.jpg",
+      "price":  "MK 500.00"
+    },
+    {
+      "name": "Dates",
+      "ftype": "dry",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/dates.jpg",
+      "price":  "MK 1500.00"
+    },
+    {
+      "name": "Figs",
+      "ftype": "dry",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/figs.jpg",
+      "price":  "MK 1000.00"
+    },
+    {
+      "name": "Grapes",
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/grape.jpg",
+      "price":  "MK 2500.00"
+    },
+    {
+      "name": "Guava",
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/guava.jpg",
+      "price":  "MK 100.00"
+    },
+    {
+      "name": "Lemon",
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/lemon.jpg",
+      "price":  "MK 20.00"
     },
     {
       "name": "Mango",
       "ftype": "fresh",
       "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
-      "price":  "$ 2.00"
+      "price":  "MK 50.00"
     },
     {
-      "name": "Mango",
+      "name": "Melon",
       "ftype": "fresh",
-      "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
-      "price":  "$ 2.00"
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/melon.jpg",
+      "price":  "mk 2000.00"
     },
     {
-      "name": "Mango",
+      "name": "Orange",
       "ftype": "fresh",
-      "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
-      "price":  "$ 2.00"
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/orange.jpg",
+      "price":  "MK 150.00"
     },
     {
-      "name": "Mango",
+      "name": "Papaya",
       "ftype": "fresh",
-      "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
-      "price":  "$ 2.00"
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/papaya.jpg",
+      "price":  "MK 500.00"
     },
     {
-      "name": "Mango",
+      "name": "Peach",
       "ftype": "fresh",
-      "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
-      "price":  "$ 2.00"
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/peach.jpg",
+      "price":  "MK 50.00"
     },
     {
-      "name": "Mango",
+      "name": "Pear",
       "ftype": "fresh",
-      "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
-      "price":  "$ 2.00"
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/pear.jpg",
+      "price":  "MK 200.00"
     },
     {
-      "name": "Mango",
+      "name": "Pineapple",
       "ftype": "fresh",
-      "photo": "https://karrassphiri.github.io/wdd230/fruits/mango.jpg",
-      "price":  "$ 2.00"
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/pineapple.jpg",
+      "price":  "MK 500.00"
+    },
+    {
+      "name": "Plum",
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/plum.jpg",
+      "price":  "MK 1000.00"
+    },
+    {
+      "name": "Raisins",
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/raisins.jpg",
+      "price":  "MK 200.00"
+    },
+    {
+      "name": "Rowanberries",
+      "ftype": "dry",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/rowanberries.jpg",
+      "price":  "MK 500.00"
+    },
+    {
+      "name": "Strawberries",
+      "ftype": "fresh",
+      "photo": "https://karrassphiri.github.io/wdd230/fruits/strawberry.jpg",
+      "price":  "MK 1000.00"
     }
+   
   ]
 }
